@@ -1,0 +1,12 @@
+<input type="checkbox" />
+input {
+    appearance: none;
+    padding: 9px 25px;
+    background-color: #fff;   
+}
+input::before {
+    content: "Open";
+}
+input:checked:before {
+    content: "Close"
+}
